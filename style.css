@@ -7,4 +7,6 @@
 
 #header-image {
     width: 100%;
+    position: relative;
+    bottom: 300px;
 }
