@@ -8,10 +8,20 @@ body {
     height: 350px;
     background-color: blue;
     overflow: hidden;
+    position: relative;
 }
 
 #header-image {
     width: 100%;
     position: relative;
     bottom: 300px;
+}
+
+/* cover of image background */
+#cover {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0%;
 }
