@@ -33,11 +33,15 @@ body {
     height: 50px;
     position: absolute;
     top: 0%;
-    background-color: green;
     direction: rtl;
 }
 
 #menu {
-    background-color: red;
     margin-right: 10px;
+}
+
+#menu > .btn {
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
 }
