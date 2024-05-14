@@ -38,5 +38,6 @@ body {
 }
 
 #menu {
-    
+    background-color: red;
+    margin-right: 10px;
 }
