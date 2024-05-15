@@ -45,8 +45,13 @@ body {
     margin-right: 30px;
     color: white;
     text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
 }
 
+#menu > .btn:hover {
+    background-color: rgba(88, 88, 88, 0.5);
+}
 .active {
     background-color: #087A79;
 }
