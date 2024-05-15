@@ -67,11 +67,20 @@ body {
 }
 
 #img-frame {
-    width: 200px;
-    height: 200px;
-    padding: 10px;
+    width: 200px; /* Represents the desired diameter of the image */
+    height: 200px; /* Represents the desired diameter of the image */
+    padding: 10px; /* Important for the spacing between the image and the border */
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #087A79;
+    border-radius: 50%; /* To make the container circular */
+    overflow: hidden; /* To prevent parts of the image from appearing outside the circular container */
 }
+
+#img-frame > img {
+    width: 100%; /* Sets the image width to 100% to fill the container completely */
+    height: auto; /* Allows the height to adjust automatically with the width */
+    border-radius: 50%; /* To make the image circular as well */
+}
+
