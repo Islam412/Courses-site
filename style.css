@@ -8,6 +8,7 @@ body {
     height: 350px;
     overflow: hidden;
     position: relative;
+    border-bottom: 10px solid #087A79;
 }
 
 #header-image {
@@ -92,8 +93,9 @@ body {
     height: auto; /* Allows the height to adjust automatically with the width */
     border-radius: 50%; /* To make the image circular as well */
 }
+
 #center-content {
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 29px;
 }
