@@ -101,3 +101,13 @@ body {
 }
 
 
+/* main-content */
+#main-body {
+    position: relative;
+    top: -200;
+}
+
+#main-body >#main-header> h1 {
+    font-weight: 400;
+}
+
