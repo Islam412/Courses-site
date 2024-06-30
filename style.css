@@ -146,7 +146,12 @@ body {
 
 }
 
-
+.course h2 {
+    margin-top: 150px;
+    background: rgb(235 , 235 , 235);
+    padding: 20px 0px;
+    direction: rtl;
+}
 
 #courses-section {
     margin-top: 150px;
