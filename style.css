@@ -100,3 +100,26 @@ body {
     font-size: 29px;
 }
 
+/* body */
+#main-header {
+    position: relative;
+}
+
+#main-body > #main-header > h1 {
+    font-weight: 400;
+}
+
+#main-body > #main-header {
+    text-align: center;
+    font-size: 18px;
+    color: #6b6b6b;  
+}
+
+#featcher {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
