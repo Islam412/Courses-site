@@ -131,7 +131,8 @@ body {
 }
 
 .course > img {
-    height: 100px;
+    width: 200x;
+    height: 150px;
 }
 
 .course {
@@ -147,9 +148,8 @@ body {
 }
 
 .course h2 {
-    margin-top: 150px;
-    background: rgb(235 , 235 , 235);
-    padding: 20px 0px;
+    margin-top: 15px;
+    padding: 20px 50px;
     direction: rtl;
 }
 
@@ -157,5 +157,19 @@ body {
     margin-top: 150px;
     background-color: rgb(221 , 221, 221);
     direction: rtl;
+}
+
+#courses-section > h1 {
+    margin-right: 30px;
+    font-size: 40px;
+    font-weight: 500px;
+}
+.course button {
+    background: #0D7A79;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 90px;
+    box-shadow: 0px 2px 8px rgb(143 , 143 , 143);
 }
 
