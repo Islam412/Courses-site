@@ -120,6 +120,13 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    
+}
+
+.featcher {
+    margin: 0px 50px;
+    background-color: rgb(221 , 221, 221);
+    width: 300px;
+    text-align: center;
+    color: #0D7A79;
 }
 
