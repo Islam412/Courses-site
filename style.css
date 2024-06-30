@@ -184,4 +184,6 @@ body {
     color: white;
 }
 
-
+#footer h5 {
+    font-weight: 400px;
+}
