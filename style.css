@@ -130,6 +130,10 @@ body {
     color: #0D7A79;
 }
 
+.course > img {
+    width: 100px;
+}
+
 #courses-section {
     margin-top: 150px;
     background-color: rgb(221 , 221, 221);
